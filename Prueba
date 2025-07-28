@@ -2029,9 +2029,9 @@ do -- Example UI
 	local AimbotTab = Window:AddTab("MainOP")
 	local VisualTab = Window:AddTab("Stats")
 	local MiscTab = Window:AddTab("Kill")
-        local VisualTab = Window:AddTab("TP")
-        local VisualTab = Window:AddTab("Calculadora")
-        local VisualTab = Window:AddTab("Creditos")
+        local TPTab = Window:AddTab("TP")
+        local CalTab = Window:AddTab("Calculadora")
+        local CrediTab = Window:AddTab("Creditos")
     do -- Elements
         do -- Aimbot Tab Content
             local AFM = AimbotTab:AddFolder("Solo Packs")
@@ -2060,6 +2060,15 @@ do -- Example UI
             local AFM_ignorewalls = AFM:AddSwitch("Auto Renacimientos", function(bool)
 
             end)
+            local AFM = VisualTab:AddFolder("Estadisticas")
+            local AFM = MiscTab:AddFolder("Kill") 
+            local AFM_ignorewalls = AFM:AddSwitch("Auto Golpe", function(bool)
+            local AFM_ignorewalls = AFM:AddSwitch("Auto kill A Todos", function(bool)
+            local AFM_ignorewalls = AFM:AddSwitch("", function(bool)
+            local AFM = TPTab:AddFolder("") 
+            local AFM = CalTab:AddFolder("Calculadora de daño") 
+            local AFM = CalTab:AddFolder("Calculadora de dura") 
+        
             local AFM_activation = AFM:AddKeybind("Bind a Key for the Aimbot", function(key)
                 print(key)
             end, {
