@@ -5,7 +5,7 @@
 --]]
 
 local ui_options = {
-	main_color = Color3.fromRGB(41, 74, 122),
+	main_color = Color3.fromRGB(255, 0, 0),
 	min_size = Vector2.new(400, 300),
 	toggle_key = Enum.KeyCode.RightShift,
 	can_resize = true,
@@ -2049,7 +2049,22 @@ do -- Example UI
                 
             end)
 
-            AFM:AddLabel("Aim Bind")
+
+            local AFM = AimbotTab:AddFolder("Sin packs")
+
+            AFM:AddLabel("no ocupas packs")
+            local AFM_ignorewalls = AFM:AddSwitch("Auto Fuerza", function(bool)
+
+            end)
+            local AFM_ignorewalls = AFM:AddSwitch("Ocultar particulas", function(bool)
+
+            end)
+            local AFM_ignorewalls = AFM:AddSwitch("Auto comer eggs (30m)", function(bool)
+
+            end)
+            local AFM_ignorewalls = AFM:AddSwitch("Auto Renacimientos", function(bool)
+
+            end)
             local AFM_activation = AFM:AddKeybind("Bind a Key for the Aimbot", function(key)
                 print(key)
             end, {
