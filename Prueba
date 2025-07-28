@@ -2043,6 +2043,7 @@ do -- Example UI
 
             AFM:AddLabel("solo packs")
             local AFM_ignorewalls = AFM:AddSwitch("Renacer sin parar", function(bool)
+            local AFM_ignorewalls = AFM:AddSwitch("Auto Fuerza OP", function(bool)
                 
             end)
 
