@@ -2041,8 +2041,8 @@ do -- Example UI
         do -- Aimbot Tab Content
             local AFM = AimbotTab:AddFolder("Solo Packs")
 
-            AFM:AddLabel("Enabled")
-            local AFM_ignorewalls = AFM:AddSwitch("Whether to the aimbot is enabled or not.", function(bool)
+            AFM:AddLabel("solo packs")
+            local AFM_ignorewalls = AFM:AddSwitch("Renacer sin parar", function(bool)
                 
             end)
 
