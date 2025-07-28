@@ -2062,10 +2062,17 @@ do -- Example UI
             end)
             local AFM = VisualTab:AddFolder("Estadisticas")
             local AFM = MiscTab:AddFolder("Kill") 
+
+            end)
             local AFM_ignorewalls = AFM:AddSwitch("Auto Golpe", function(bool)
+
+            end)
             local AFM_ignorewalls = AFM:AddSwitch("Auto kill A Todos", function(bool)
-            local AFM_ignorewalls = AFM:AddSwitch("", function(bool)
-            local AFM = TPTab:AddFolder("") 
+
+            end)
+            local AFM_ignorewalls = AFM:AddSwitch("Espectear", function(bool)
+
+            end)
             local AFM = CalTab:AddFolder("Calculadora de daño") 
             local AFM = CalTab:AddFolder("Calculadora de dura") 
         
