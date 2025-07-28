@@ -1,8 +1,8 @@
 local ui_options = {
-    main_color = Color3.fromRGB(255, 0, 0),  -- Color rojo
-    min_size = Vector2.new(400, 300),        -- Tamaño mínimo de la ventana
-    toggle_key = Enum.KeyCode.RightShift,     -- Tecla para activar la ventana
-    can_resize = true,                        -- La ventana puede redimensionarse
+    main_color = Color3.fromRGB(255, 0, 0),  
+    min_size = Vector2.new(400, 300),        
+    toggle_key = Enum.KeyCode.RightShift,     
+    can_resize = true,                        
 }
 
 
