@@ -2,7 +2,7 @@ local window = library:AddWindow("Sync X", {
     main_color = Color3.fromRGB(139, 0, 0), -- Vermelho escuro
     min_size = Vector2.new(470, 470),
     can_resize = false,
-})                 
+}               
 
 
 do
